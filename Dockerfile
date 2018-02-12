@@ -5,6 +5,6 @@ RUN apk add --update \
     ruby \
     ruby-irb \
     ruby-rdoc \
-    && gem install puppet puppet-lint puppet-syntax rake rspec rspec-puppet rspec-puppet-utils
+    && gem install puppet puppet-lint puppet-syntax rake rspec rspec-puppet rspec-puppet-facts rspec-puppet-utils
 
 ENTRYPOINT ["/bin/bash"]
